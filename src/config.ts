@@ -11,7 +11,7 @@ export const siteConfig: SiteConfig = {
   subtitle: 'Through Film',
   lang: 'en',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko'
   themeColor: {
-    hue: 300,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
+    hue: 100,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
     fixed: false,     // Hide the theme color picker for visitors
   },
   banner: {
@@ -50,25 +50,7 @@ export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: 'History Through Film',
   bio: '',
-  links: [
-    {
-      name: 'Twitter',
-      icon: 'fa6-brands:twitter',       // Visit https://icones.js.org/ for icon codes
-                                        // You will need to install the corresponding icon set if it's not already included
-                                        // `pnpm add @iconify-json/<icon-set-name>`
-      url: 'https://twitter.com',
-    },
-    {
-      name: 'Steam',
-      icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
-    },
-    {
-      name: 'GitHub',
-      icon: 'fa6-brands:github',
-      url: 'https://github.com/saicaca/fuwari',
-    },
-  ],
+  links: [],
 }
 
 export const licenseConfig: LicenseConfig = {
